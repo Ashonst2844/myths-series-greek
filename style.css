@@ -31,13 +31,18 @@ body {
     align-items: center;
 }
 .reveal {
-    opacity: 0;
-    transform: scale(0.95);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    animation: revealAnim both;
+    animation-timeline: view();
 }
-.reveal.show {
-    opacity: 1;
-    transform: scale(1);
+@keyframes revealAnim {
+    from {
+        opacity: 0;
+        scale: 0.9;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
 }
 #container {
     width: 90vw;
@@ -168,6 +173,7 @@ body {
     padding: 20px;
     overflow-y: scroll;
     scrollbar-width: none;
+    scroll-behavior: smooth;
 }
 .body-sect .body-content .pg h2, .body-sect .body-content .pg h3 {
     font-family: "Birthstone", cursive;
