@@ -1,0 +1,278 @@
+:root {
+    --base-color: #452829;
+    --base-color-2: #e8d1c5;
+    --base-color-3 : #5c3f40;
+    --accent-color: #f3e8df;
+    --accent-color-2: #ffead6;
+    --text: #222222;
+}
+@font-face {
+    font-family: "Birthstone";
+    src: url(src/Birthstone/Birthstone-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+body {
+    background-color: var(--base-color);
+    color: var(--text);
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    width: 90vw;
+    height: 90vh;
+    background-color: var(--base-color-2);
+    border-radius: 40px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.nav-sect {
+    grid-area: 1 / 1 / 5 / 3;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 30px;
+}
+.nav-sect ul {
+    width: 90%;
+    height: 100%;
+}
+
+.nav-sect ul hr {
+    margin-block: 20px
+}
+.nav-sect ul input {
+    display: none;
+}
+.nav-sect ul label {
+    width: 100%;
+    display: block;
+    margin-block: 10px;
+    font-size: 18px;
+    background-color: var(--accent-color);
+    padding: 20px;
+    color: var(--text);
+    position: relative;
+    border-radius: 10px;
+}
+.nav-sect ul label:hover, .nav-sect ul input:checked + label, .head-sect .help a:hover, .head-sect .profile a:hover {
+    background-color: var(--accent-color-2);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.nav-sect ul label i {
+    color: var(--text);
+    margin-right: 5px;
+}
+.head-sect {
+    grid-area:  1 / 3 / 2 / 9;
+    border-top-right-radius: 40px;
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+}
+.head-sect .text {
+    border-left: 4px solid var(--text);
+    padding-left: 20px;
+    width: 70%;
+    height: 100%;
+}
+.head-sect .help {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-sect .help a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: var(--accent-color);
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    margin: 5px;
+}
+.head-sect .profile {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-sect .profile a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: var(--accent-color);
+    font-size: 42px;
+    color: var(--text);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+}
+.head-sect .text {
+    display: flex;
+    align-items: center;
+}
+.head-sect .text h1 {
+    font-size: 56px;
+    letter-spacing: 3px;
+    font-family: "Birthstone", cursive;
+}
+.head-sect .text h1 span {
+    font-size: 24px;
+    margin-inline: 10px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.body-sect {
+    grid-area: 2 / 3 / 5 / 7;
+    padding-top: 10px;
+    padding-inline: 10px;
+}
+.body-sect .body-content {
+    background-color: var(--accent-color);
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.body-sect .body-content .pg h2, .body-sect .body-content .pg h3 {
+    font-family: "Birthstone", cursive;
+}
+.body-sect .body-content .pg h2 {
+    font-size: 32px;
+}
+.body-sect .body-content .pg h3 {
+    font-size: 24px;
+}
+.body-sect .body-content .pg p {
+    font-size: 16px;
+    margin: 20px;
+    text-align: justify;
+    float: left;
+}
+.body-sect .body-content #main-pg p .cover-img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+}
+.body-sect .body-content .pg .container-list {
+    width: 100%;
+}
+.body-sect .body-content .pg .container-list ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.body-sect .body-content .pg .container-list ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 30px;
+    background-color: var(--base-color);
+    color: var(--accent-color);
+    margin: 5px;
+    border-radius: 10px;
+}
+.side-sect {
+    grid-area: 2 / 7 / 5 / 9;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.side-sect .side-content {
+    background-color: var(--accent-color);
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.side-sect .side-content h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Birthstone", cursive;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.side-sect .side-content p {
+    font-size: 16px;
+}
+.side-sect .side-content span {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+.side-sect .side-content ul li {
+    list-style: circle;
+    margin: 20px;
+}
+.side-sect .side-content ul li a {
+    color: var(--base-color);
+    text-decoration: underline;
+}
+.side-sect .side-content .contact-sect {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-sect .side-content .contact-sect a {
+    width: 50px;
+    height: 50px;
+    background-color: var(--base-color);
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 10px;
+}
+.side-sect .side-content .contact-sect a:hover, .body-sect .body-content .pg .container-list ul a:hover {
+    background-color: var(--base-color-3);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.side-sect .side-content .contact-sect a i {
+    color: var(--accent-color);
+    font-size: 24px;
+}
+.body-content > div {
+    display: none;
+}
+.body-content > div:first-child {
+    display: block;
+}
