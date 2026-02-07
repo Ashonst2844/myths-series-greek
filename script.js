@@ -13,9 +13,12 @@ fetch('data/olympian-data.json')
     .then(response => response.json())
     .then(data => {
         const container = document.querySelector('#olympian-char');
+        const list = document.querySelector("#olympian-list");
         data.forEach((item) => {
             const charDiv = document.createElement('div');
             const lineBreak = document.createElement('hr');
+            const linkNav = document.createElement("a");
+
             lineBreak.style.border = "1px solid var(--text)";
             lineBreak.style.marginBlock = "20px";
             charDiv.classList.add('detail', 'reveal');
@@ -24,6 +27,10 @@ fetch('data/olympian-data.json')
                 <h2>${item.title}</h2><span>${item.description}</span>
                 <p><img src="${item.image}" alt="${item.title}">${item.caption}</p>
             `;
+            linkNav.setAttribute("href", "#"+item.id);
+            linkNav.textContent = item.title;
+
+            list.appendChild(linkNav);
             container.appendChild(charDiv);
             container.appendChild(lineBreak);
             container.appendChild(document.createElement("br"));
@@ -35,9 +42,12 @@ fetch('data/titan-data.json')
     .then(response => response.json())
     .then(data => {
         const container = document.querySelector('#titan-char');
+        const list = document.querySelector("#titan-list")
         data.forEach((item) => {
             const charDiv = document.createElement('div');
             const lineBreak = document.createElement('hr');
+            const linkNav = document.createElement("a");
+
             lineBreak.style.border = "1px solid var(--text)";
             lineBreak.style.marginBlock = "20px";
             charDiv.classList.add('detail', 'reveal');
@@ -52,6 +62,10 @@ fetch('data/titan-data.json')
                 <span>Pasangan:</span> ${item.lover}<br>
                 <span>Anak-anak:</span> ${item.child.join(', ')}
             `;
+            linkNav.setAttribute("href", "#"+item.id);
+            linkNav.textContent = item.title;
+
+            list.appendChild(linkNav);
             container.appendChild(charDiv);
             container.appendChild(document.createElement('br'));
             container.appendChild(lineBreak);

@@ -57,20 +57,7 @@
                     <h2>The Olympians</h2>
                     <p>Para dewa dan dewi yang tinggal di Gunung Olympus dan memerintah dunia mitologi Yunani. Mereka memiliki kekuatan luar biasa dan memainkan peran penting dalam kisah-kisah mitos.</p>
                     <div class="container-list">
-                        <ul>
-                            <a href="#aphrodite">Aphrodite</a>
-                            <a href="#apollo">Apollo</a>
-                            <a href="#ares">Ares</a>
-                            <a href="#artemis">Artemis</a>
-                            <a href="#athena">Athena</a>
-                            <a href="#hades">Hades</a>
-                            <a href="#hephaestus">Hephaestus</a>
-                            <a href="#hera">Hera</a>
-                            <a href="#hermes">Hermes</a>
-                            <a href="#hestia">Hestia</a>
-                            <a href="#poseidon">Poseidon</a>
-                            <a href="#zeus">Zeus</a>
-                        </ul>
+                        <ul id="olympian-list"></ul>
                     </div>
                     <div class="char-detail" id="olympian-char">
                     </div>
@@ -85,39 +72,7 @@
                     <p>Sebelum para Olympian, Titan-Titan memerintah dunia. Pelajari tentang generasi pertama dewa-dewa yang powerful dan kuno dalam mitologi Yunani.
                     </p>
                     <div class="container-list">
-                        <ul>
-                            <a href="#asteria">Asteria</a>
-                            <a href="#astreus">Astreus</a>
-                            <a href="#atlas">Atlas</a>
-                            <a href="#clymene">Clymene</a>
-                            <a href="#coeus">Coeus</a>
-                            <a href="#crius">Crius</a>
-                            <a href="#cronus">Cronus</a>
-                            <a href="#dione">Dione</a>
-                            <a href="#eos">Eos</a>
-                            <a href="#epimetheus">Epimetheus</a>
-                            <a href="#eurybia">Eurybia</a>
-                            <a href="#eurynome">Eurynome</a>
-                            <a href="#hyperion">Hyperion</a>
-                            <a href="#iapetus">Iapetus</a>
-                            <a href="#lelantos">Lelantos</a>
-                            <a href="#leto">Leto</a>
-                            <a href="#monoeteus">Monoeteus</a>
-                            <a href="#metis">Metis</a>
-                            <a href="#mnemosyne">Mnemosyne</a>
-                            <a href="#oceanus">Oceanus</a>
-                            <a href="#ophion">Ophion</a>
-                            <a href="#pallas">Pallas</a>
-                            <a href="#perses">Perses</a>
-                            <a href="#phoebe">Phoebe</a>
-                            <a href="#prometheus">Prometheus</a>
-                            <a href="#rhea">Rhea</a>
-                            <a href="#selene">Selene</a>
-                            <a href="#styx">Styx</a>
-                            <a href="#tethys">Tethys</a>
-                            <a href="#thea">Thea</a>
-                            <a href="#themis">Themis</a>
-                        </ul>
+                        <ul id="titan-list"></ul>
                     </div>
                     <div class="char-detail" id="titan-char">
                     </div>
@@ -127,8 +82,7 @@
                     <p>Temukan makhluk-makhluk legendaris dan mistis yang menghuni dunia mitologi Yunani, dari phoenix hingga pegasus dan manticore.
                     </p>
                     <div class="container-list">
-                        <ul>
-                        </ul>
+                        <ul id="creature-list"></ul>
                     </div>
                     <div class="char-detail" id="creature-char"></div>
                 </div>
