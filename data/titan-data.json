@@ -131,8 +131,8 @@
     "title": "Menoetius",
     "description": "Titan yang dihancurkan oleh petir Zeus karena kesombongannya.",
     "role": "Dewa Kemarahan dan Keangkuhan",
-    "lover": "Unknown",
-    "child": []
+    "lover": "-",
+    "child": ["-"]
     },
     {
     "id": "metis",
@@ -164,7 +164,7 @@
     "description": "Penguasa awal dunia dalam beberapa tradisi sebelum Cronus.",
     "role": "Penguasa Dunia Awal",
     "lover": "Eurynome",
-    "child": []
+    "child": ["-"]
   },
   {
     "id": "pallas",

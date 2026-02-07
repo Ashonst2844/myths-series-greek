@@ -170,6 +170,7 @@ body {
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     padding: 20px;
+    padding-bottom: 150px;
     overflow-y: scroll;
     scrollbar-width: none;
     scroll-behavior: smooth;

@@ -26,6 +26,7 @@ fetch('data/olympian-data.json')
             `;
             container.appendChild(charDiv);
             container.appendChild(lineBreak);
+            container.appendChild(document.createElement("br"));
         });
     })
     .catch(error => console.error('Error loading JSON data:', error));
