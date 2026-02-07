@@ -1,0 +1,86 @@
+[
+    {
+        "id": "aphrodite",
+        "title": "Aphrodite",
+        "description": "Goddess of love, beauty, and desire.",
+        "image": "../src/olympian-images/aphrodite.png",
+        "caption": "Dewi kecantikan dan cinta. Aphrodite dikenal karena kecantikannya yang mempesona dan pengaruhnya dalam hubungan asmara."
+    },
+    {
+        "id": "apollo",
+        "title": "Apollo",
+        "description": "God of the sun, music, and knowledge.",
+        "image": "../src/olympian-images/apollo.png",
+        "caption": "Dewa matahari, musik, dan ilmu pengetahuan. Apollo dikenal karena kecerdasannya dan kekuatannya dalam berbagai bidang."
+    },
+    {
+        "id": "ares",
+        "title": "Ares",
+        "description": "God of war.",
+        "image": "../src/olympian-images/ares.png",
+        "caption": "Dewa perang. Ares dikenal karena keganasannya dan perannya dalam pertempuran"
+    },
+    {
+        "id": "artemis",
+        "title": "Artemis",
+        "description": "Goddess of the hunt, wilderness, and the moon.",
+        "image": "../src/olympian-images/artemis.png",
+        "caption": "Dewi kehutan dan bulan. Artemis dikenal karena kekuatannya dalam melindungi hewan dan memperjuangkan kebebasan."
+    },
+    {
+        "id": "athena",
+        "title": "Athena",
+        "description": "Goddess of wisdom, warfare, and crafts.",
+        "image": "../src/olympian-images/athena.png",
+        "caption": "Dewi kebijaksanaan dan perang. Athena dikenal karena kecerdasannya dan perannya dalam melindungi kota-kota."
+    },
+    {
+        "id": "hades",
+        "title": "Hades",
+        "description": "God of the underworld.",
+        "image": "../src/olympian-images/hades.png",
+        "caption": "Dewa bawah dunia. Hades dikenal karena kekuatannya dalam menguasai dunia bawah dan memerintah jiwa-jiwa."
+    },
+    {
+        "id": "hephaestus",
+        "title": "Hephaestus",
+        "description": "God of fire and craftsmanship.",
+        "image": "../src/olympian-images/hephaestus.png",
+        "caption": "Dewa api dan kerajinan logam. Hephaestus dikenal karena keahlian dalam membuat senjata dan peralatan yang luar biasa."
+    },
+    {
+        "id": "hera",
+        "title": "Hera",
+        "description": "Goddess of marriage and family.",
+        "image": "../src/olympian-images/hera.png",
+        "caption": "Dewi pernikahan dan keluarga. Hera dikenal karena kekuatannya dalam melindungi pernikahan dan memperjuangkan keadilan."
+    },
+    {
+        "id": "hermes",
+        "title": "Hermes",
+        "description": "God of travel, communication, and messengers.",
+        "image": "../src/olympian-images/hermes.png",
+        "caption": "Dewa perjalanan dan pesan. Hermes dikenal karena kecepatannya dan perannya sebagai pengantar jiwa ke dunia bawah."
+    },
+    {
+        "id": "hestia",
+        "title": "Hestia",
+        "description": "Goddess of the hearth and home.",
+        "image": "../src/olympian-images/hestia.png",
+        "caption": "Dewi api rumah tangga. Hestia dikenal karena perannya dalam menjaga keamanan dan keharmonisan rumah tangga."
+    },
+    {
+        "id": "poseidon",
+        "title": "Poseidon",
+        "description": "God of the sea and earthquakes.",
+        "image": "../src/olympian-images/poseidon.png",
+        "caption": "Dewa laut dan gempa bumi. Poseidon dikenal karena kekuatannya dalam mengendalikan air dan memicu gempa."
+    },
+    {
+        "id": "zeus",
+        "title": "Zeus",
+        "description": "King of the gods and god of the sky.",
+        "image": "../src/olympian-images/zeus.png",
+        "caption": "Raja para dewa, penguasa langit dan petir. Zeus dikenal karena kekuatannya yang luar biasa dan perannya sebagai pelindung keadilan."
+    }
+]

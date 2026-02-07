@@ -222,6 +222,11 @@ body {
     margin: 10px;
     float: left;
 }
+.body-sect .body-content .pg .char-detail div span {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
 .body-sect .body-content .pg .char-detail div p img {
     width: 100px;
     height: 100px;
