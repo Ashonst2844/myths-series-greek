@@ -1,0 +1,249 @@
+[
+  {
+    "id": "asteria",
+    "title": "Asteria",
+    "description": "Titanid nubuat bintang dan astrologi.",
+    "role": "Dewi Astrologi dan Ramalan Malam",
+    "lover": "Perses",
+    "child": ["Hecate"]
+  },
+  {
+    "id": "astraeus",
+    "title": "Astraeus",
+    "description": "Titan yang diasosiasikan dengan senja dan astronomi.",
+    "role": "Dewa Senja",
+    "lover": "Eos",
+    "child": ["Anemoi (Boreas, Zephyrus, Notus, Eurus)", "Astra Planeta"]
+  },
+  {
+    "id": "atlas",
+    "title": "Atlas",
+    "description": "Titan yang memikul beban langit sebagai hukuman dari Zeus.",
+    "role": "Ketahanan dan Astronomi",
+    "lover": "Pleione",
+    "child": ["Pleiades", "Hyades", "Hesperides", "Calypso"]
+  },
+  {
+    "id": "clymene",
+    "title": "Clymene",
+    "description": "Seorang Oceanid yang merupakan Titanid ketenaran.",
+    "role": "Dewi Kemasyhuran",
+    "lover": "Iapetus",
+    "child": ["Atlas", "Prometheus", "Epimetheus", "Menoetius"]
+  },
+  {
+    "id": "coeus",
+    "title": "Coeus",
+    "description": "Titan kecerdasan yang mewakili poros langit Utara.",
+    "role": "Dewa Kecerdasan",
+    "lover": "Phoebe",
+    "child": ["Leto", "Asteria"]
+  },
+  {
+    "id": "crius",
+    "title": "Crius",
+    "description": "Titan yang menguasai rasi bintang dan arah Selatan.",
+    "role": "Dewa Rasi Bintang",
+    "lover": "Eurybia",
+    "child": ["Astraeus", "Pallas", "Perses"]
+  },
+  {
+    "id": "cronus",
+    "title": "Cronus",
+    "description": "Pemimpin Titan generasi pertama yang menggulingkan Uranus.",
+    "role": "Raja Titan, Dewa Waktu dan Pertanian",
+    "lover": "Rhea",
+    "child": ["Hestia", "Demeter", "Hera", "Hades", "Poseidon", "Zeus"]
+  },
+  {
+    "id": "dione",
+    "title": "Dione",
+    "description": "Titanid yang sering dikaitkan dengan ramalan kuno.",
+    "role": "Dewi Nubuat",
+    "lover": "Zeus",
+    "child": ["Aphrodite (dalam beberapa versi)"]
+  },
+  {
+    "title": "Eos",
+    "description": "Titanid yang melintasi langit setiap pagi.",
+    "role": "Dewi Fajar",
+    "lover": "Astraeus",
+    "child": ["Memnon", "Emathion", "Phaethon"]
+  },
+  {
+    "id": "epimetheus",
+    "title": "Epimetheus",
+    "description": "Titan yang sering dianggap kurang bijaksana dibanding kakaknya.",
+    "role": "Dewa Pikiran Belakangan (Afterthought)",
+    "lover": "Pandora",
+    "child": ["Pyrrha"]
+  },
+  {
+    "id": "eurybia",
+    "title": "Eurybia",
+    "description": "Titanid yang memiliki kendali atas laut dan angin.",
+    "role": "Dewi Kekuatan Laut",
+    "lover": "Crius",
+    "child": ["Astraeus", "Pallas", "Perses"]
+  },
+  {
+    "id": "eurynome",
+    "title": "Eurynome",
+    "description": "Titanid aliran air dan padang rumput.",
+    "role": "Dewi Aliran Air",
+    "lover": "Zeus",
+    "child": ["Charites (The Graces)"]
+  },
+  {
+    "id": "hyperion",
+    "title": "Hyperion",
+    "description": "Titan cahaya yang merupakan pilar langit Timur.",
+    "role": "Dewa Cahaya dan Pengamatan",
+    "lover": "Thea",
+    "child": ["Helios", "Selene", "Eos"]
+  },
+  {
+    "id": "iapetus",
+    "title": "Iapetus",
+    "description": "Titan yang mewakili kefanaan dan pilar langit Barat.",
+    "role": "Dewa Kefanaan",
+    "lover": "Clymene",
+    "child": ["Atlas", "Prometheus", "Epimetheus", "Menoetius"]
+  },
+  {
+    "id": "lelantos",
+    "title": "Lelantos",
+    "description": "Titan yang mewakili udara dan gerakan yang tidak terdeteksi.",
+    "role": "Dewa Udara dan Mengintai",
+    "lover": "Periboea",
+    "child": ["Atlas", "Prometheus", "Epimetheus", "Menoetius"]
+  },
+  {
+    "id": "leto",
+    "title": "Leto",
+    "description": "Titanid yang dikenal karena kesabaran dan perjuangannya.",
+    "role": "Dewi Keibuan",
+    "lover": "Zeus",
+    "child": ["Apollo", "Artemis"]
+  },
+  {
+    "id": "menoetius",
+    "title": "Menoetius",
+    "description": "Titan yang dihancurkan oleh petir Zeus karena kesombongannya.",
+    "role": "Dewa Kemarahan dan Keangkuhan",
+    "lover": "Unknown",
+    "child": []
+    },
+    {
+    "id": "metis",
+    "title": "Metis",
+    "description": "Titanid kebijaksanaan dan penasihat pertama Zeus.",
+    "role": "Dewi Kebijaksanaan",
+    "lover": "Zeus",
+    "child": ["Athena"]
+  },
+  {
+    "id": "mnemosyne",
+    "title": "Mnemosyne",
+    "description": "Titanid yang menciptakan bahasa dan kata-kata.",
+    "role": "Dewi Ingatan",
+    "lover": "Zeus",
+    "child": ["Sembilan Muse"]
+  },
+  {
+    "id": "oceanus",
+    "title": "Oceanus",
+    "description": "Titan penguasa sungai besar yang mengelilingi bumi.",
+    "role": "Dewa Air Tawar Global",
+    "lover": "Tethys",
+    "child": ["Para Oceanid", "Potamoi (Dewa Sungai)"]
+  },
+  {
+    "id": "ophion",
+    "title": "Ophion",
+    "description": "Penguasa awal dunia dalam beberapa tradisi sebelum Cronus.",
+    "role": "Penguasa Dunia Awal",
+    "lover": "Eurynome",
+    "child": []
+  },
+  {
+    "id": "pallas",
+    "title": "Pallas",
+    "description": "Titan yang diasosiasikan dengan kerajinan roleg.",
+    "role": "Dewa roleg",
+    "lover": "Styx",
+    "child": ["Nike", "Zelus", "Kratos", "Bia"]
+  },
+  {
+    "id": "perses",
+    "title": "Perses",
+    "description": "Titan yang mewakili kehancuran.",
+    "role": "Dewa Kehancuran",
+    "lover": "Asteria",
+    "child": ["Hecate"]
+  },
+  {
+    "id": "phoebe",
+    "title": "Phoebe",
+    "description": "Titanid yang menguasai ramalan di Delphi sebelum Apollo.",
+    "role": "Dewi Kecemerlangan dan Nubuat",
+    "lover": "Coeus",
+    "child": ["Leto", "Asteria"]
+  },
+  {
+    "id": "prometheus",
+    "title": "Prometheus",
+    "description": "Titan yang menciptakan manusia dari tanah liat dan memberi api.",
+    "role": "Dewa Pikiran Depan (Foresight)",
+    "lover": "Pronoia",
+    "child": ["Deucalion"]
+  },
+  {
+    "id": "rhea",
+    "title": "Rhea",
+    "description": "Ibu dari dewa-dewi Olimpus utama.",
+    "role": "Ratu Titan, Dewi Kesuburan",
+    "lover": "Cronus",
+    "child": ["Zeus", "Hera", "Poseidon", "Hades", "Demeter", "Hestia"]
+  },
+  {
+    "id": "selene",
+    "title": "Selene",
+    "description": "Titanid yang mengendarai kereta bulan melintasi langit.",
+    "role": "Dewi Bulan",
+    "lover": "Endymion",
+    "child": ["Pandia", "Ersa", "Nemean Lion (dalam beberapa versi)"]
+  },
+  {
+    "id": "styx",
+    "title": "Styx",
+    "description": "Titanid sungai pembatas dunia orang hidup dan mati.",
+    "role": "Dewi Sungai Sumpah",
+    "lover": "Pallas",
+    "child": ["Nike", "Zelus", "Kratos", "Bia"]
+  },
+  {
+    "id": "tethys",
+    "title": "Tethys",
+    "description": "Titanid yang mengatur distribusi air tawar di seluruh dunia.",
+    "role": "Dewi Sumber Air",
+    "lover": "Oceanus",
+    "child": ["Para Oceanid"]
+  },
+  {
+    "id": "thea",
+    "title": "Thea",
+    "description": "Titanid yang memberikan nilai pada emas dan perak.",
+    "role": "Dewi Penglihatan dan Kilau",
+    "lover": "Hyperion",
+    "child": ["Helios", "Selene", "Eos"]
+  },
+  {
+    "id": "themis",
+    "title": "Themis",
+    "description": "Titanid yang mewakili tatanan alam dan hukum ilahi.",
+    "role": "Dewi Keadilan dan Hukum",
+    "lover": "Zeus",
+    "child": ["Moirai (Nasib)", "Horai (Musim)"]
+  }
+]
