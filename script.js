@@ -101,3 +101,38 @@ fetch('data/titan-data.json')
         });
     })
     .catch(error => console.error('Error loading JSON data:', error));
+
+fetch('data/god-data.json')
+    .then(response => response.json())
+    .then(data => {
+        const container = document.querySelector('#god-char');
+        const list = document.querySelector("#god-list");
+        data.forEach((item) => {
+            const charDiv = document.createElement('div');
+            const lineBreak = document.createElement('hr');
+            const linkNav = document.createElement("a");
+
+            lineBreak.style.border = "1px solid var(--text)";
+            lineBreak.style.marginBlock = "20px";
+            charDiv.classList.add('detail', 'reveal');
+            charDiv.setAttribute("id", item.id);
+            charDiv.innerHTML = `
+                <h2>${item.title}</h2>
+                <br>
+                <p>${item.description}</p>
+                <br>
+                <br>
+                <br>
+                <span>Pasangan:</span> ${item.parent}<br>
+                <span>Anak-anak:</span> ${item.child.join(', ')}
+            `;
+            linkNav.setAttribute("href", "#"+item.id);
+            linkNav.textContent = item.title;
+
+            list.appendChild(linkNav);
+            container.appendChild(charDiv);
+            container.appendChild(lineBreak);
+            container.appendChild(document.createElement("br"));
+        });
+    })
+    .catch(error => console.error('Error loading JSON data:', error));

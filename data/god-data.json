@@ -1,0 +1,933 @@
+[
+    {
+        "id": "achelous",
+        "title": "Achelous",
+        "description": "Dewa sungai tertua dan terkuat di Yunani.",
+        "parent": ["Oceanus", "Tethys"],
+        "child": ["The Sirens", "Castalia"]
+    },
+    {
+        "id": "adonis",
+        "title": "Adonis",
+        "description": "Dewa keindahan dan keinginan yang sangat dicintai oleh Aphrodite.",
+        "parent": ["Cinyras", "Myrrha"],
+        "child": ["Beroe", "Golgos"]
+    },
+    {
+        "id": "aeolus",
+        "title": "Aeolus",
+        "description": "Penguasa angin yang tinggal di pulau terapung Aeolia.",
+        "parent": ["Hippotes"],
+        "child": ["Arne", "Melanippe"]
+    },
+    {
+        "id": "aether",
+        "title": "Aether",
+        "description": "Dewa primordial udara atas yang murni (langit cahaya).",
+        "parent": ["Erebus", "Nyx"],
+        "child": []
+    },
+    {
+        "id": "amphitrite",
+        "title": "Amphitrite",
+        "description": "Dewi laut dan istri dari Poseidon.",
+        "parent": ["Nereus", "Doris"],
+        "child": ["Triton", "Rhode", "Benthesikyme"]
+    },
+    {
+        "id": "ananke",
+        "title": "Ananke",
+        "description": "Personifikasi dari keniscayaan, takdir, dan paksaan.",
+        "parent": ["Chaos", "Hydros"],
+        "child": ["The Fates (Moirai)", "The Horae"]
+    },
+    {
+        "id": "asclepius",
+        "title": "Asclepius",
+        "description": "Dewa pengobatan dan penyembuhan.",
+        "parent": ["Apollo", "Coronis"],
+        "child": ["Hygeia", "Panacea", "Iaso", "Aceso", "Aegle"]
+    },
+    {
+        "id": "chaos",
+        "title": "Chaos",
+        "description": "Kehampaan atau kondisi awal sebelum alam semesta terbentuk.",
+        "parent": [],
+        "child": ["Erebus", "Nyx", "Gaea", "Tartarus", "Eros"]
+    },
+    {
+        "id": "demeter",
+        "title": "Demeter",
+        "description": "Dewi pertanian, kesuburan, dan panen.",
+        "parent": ["Cronus", "Rhea"],
+        "child": ["Persephone", "Arion", "Ploutos"]
+    },
+    {
+        "id": "dionysus",
+        "title": "Dionysus",
+        "description": "Dewa anggur, pesta pora, dan teater.",
+        "parent": ["Zeus", "Semele"],
+        "child": ["Priapus", "Hymenaios", "The Charites"]
+    },
+    {
+        "id": "erebus",
+        "title": "Erebus",
+        "description": "Dewa primordial kegelapan.",
+        "parent": ["Chaos"],
+        "child": ["Aether", "Hemera"]
+    },
+    {
+        "id": "eris",
+        "title": "Eris",
+        "description": "Dewi perselisihan dan pertikaian.",
+        "parent": ["Nyx"],
+        "child": ["Limos", "Algea", "Phonoi", "Makhai"]
+    },
+    {
+        "id": "gaea",
+        "title": "Gaea",
+        "description": "Personifikasi Bumi dan Ibu Pertiwi primordial.",
+        "parent": ["Chaos"],
+        "child": ["Uranus", "Pontus", "The Titans", "The Cyclopes"]
+    },
+    {
+        "id": "hecate",
+        "title": "Hecate",
+        "description": "Dewi sihir, persimpangan jalan, dan hantu.",
+        "parent": ["Perses", "Asteria"],
+        "child": ["Scylla"]
+    },
+    {
+        "id": "hypnos",
+        "title": "Hypnos",
+        "description": "Personifikasi dari tidur.",
+        "parent": ["Nyx"],
+        "child": ["The Oneiroi (Morpheus, Phobetor, Phantasos)"]
+    },
+    {
+        "id": "nike",
+        "title": "Nike",
+        "description": "Dewi kemenangan.",
+        "parent": ["Pallas", "Styx"],
+        "child": []
+    },
+    {
+        "id": "persephone",
+        "title": "Persephone",
+        "description": "Ratu dunia bawah dan dewi musim semi.",
+        "parent": ["Zeus", "Demeter"],
+        "child": ["Melinoe", "Zagreus"]
+    },
+    {
+        "id": "adrestia",
+        "title": "Adrestia",
+        "description": "Dewi pembalasan dendam dan keseimbangan antara baik dan buruk.",
+        "parent": ["Ares", "Aphrodite"],
+        "child": []
+    },
+    {
+        "id": "agathodaemon",
+        "title": "Agathodaemon",
+        "description": "Roh keberuntungan, gandum, dan kebun anggur.",
+        "parent": [],
+        "child": []
+    },
+    {
+        "id": "aglaea",
+        "title": "Aglaea",
+        "description": "Dewi kemegahan, kejayaan, dan kecemerlangan. Salah satu dari tiga Graces.",
+        "parent": ["Zeus", "Eurynome"],
+        "child": []
+    },
+    {
+        "id": "algea",
+        "title": "Algea",
+        "description": "Personifikasi dari rasa sakit, baik fisik maupun mental.",
+        "parent": ["Eris"],
+        "child": []
+    },
+    {
+        "id": "alpheus",
+        "title": "Alpheus",
+        "description": "Dewa sungai Alpheios di Peloponnese.",
+        "parent": ["Oceanus", "Tethys"],
+        "child": []
+    },
+    {
+        "id": "androktasiai",
+        "title": "Androktasiai",
+        "description": "Personifikasi dari pembantaian di medan perang.",
+        "parent": ["Eris"],
+        "child": []
+    },
+    {
+        "id": "anemoi",
+        "title": "Anemoi",
+        "description": "Dewa-dewa angin yang mewakili empat arah mata angin.",
+        "parent": ["Astraeus", "Eos"],
+        "child": []
+    },
+    {
+        "id": "anteros",
+        "title": "Anteros",
+        "description": "Dewa cinta balasan dan penghukum bagi mereka yang meremehkan cinta.",
+        "parent": ["Ares", "Aphrodite"],
+        "child": []
+    },
+    {
+        "id": "apate",
+        "title": "Apate",
+        "description": "Dewi tipu muslihat, kecurangan, dan penipuan.",
+        "parent": ["Erebus", "Nyx"],
+        "child": []
+    },
+    {
+        "id": "aristaeus",
+        "title": "Aristaeus",
+        "description": "Dewa pelindung peternakan lebah, pertanian, dan tanaman zaitun.",
+        "parent": ["Apollo", "Cyrene"],
+        "child": ["Actaeon", "Macris"]
+    },
+    {
+        "id": "asopus",
+        "title": "Asopus",
+        "description": "Dewa sungai di wilayah Boeotia dan Peloponnese.",
+        "parent": ["Oceanus", "Tethys"],
+        "child": ["Aegina", "Salamis", "Sinope"]
+    },
+    {
+        "id": "astraea",
+        "title": "Astraea",
+        "description": "Dewi keadilan, kepolosan, dan kemurnian.",
+        "parent": ["Astraeus", "Eos"],
+        "child": []
+    },
+    {
+        "id": "ate",
+        "title": "Ate",
+        "description": "Dewi kebodohan, khilaf, dan kehancuran.",
+        "parent": ["Eris"],
+        "child": []
+    },
+    {
+        "id": "atropos",
+        "title": "Atropos",
+        "description": "Salah satu dari tiga Fates (Moirai) yang bertugas memotong benang kehidupan.",
+        "parent": ["Zeus", "Themis"],
+        "child": []
+    },
+    {
+        "id": "aura",
+        "title": "Aura",
+        "description": "Dewi personifikasi dari angin sepoi-sepoi dan udara pagi.",
+        "parent": ["Lelantos", "Periboia"],
+        "child": ["Iacchus"]
+    },
+    {
+        "id": "bia",
+        "title": "Bia",
+        "description": "Personifikasi dari kekuatan fisik dan paksaan.",
+        "parent": ["Pallas", "Styx"],
+        "child": []
+    },
+    {
+        "id": "britomartis",
+        "title": "Britomartis",
+        "description": "Dewi gunung, perburuan, dan jaring ikan.",
+        "parent": ["Zeus", "Carme"],
+        "child": []
+    },
+    {
+        "id": "caerus",
+        "title": "Caerus",
+        "description": "Dewa kesempatan, keberuntungan, dan momen yang tepat.",
+        "parent": ["Zeus"],
+        "child": []
+    },
+    {
+        "id": "calypso",
+        "title": "Calypso",
+        "description": "Nymph yang menahan Odysseus di pulau Ogygia selama tujuh tahun.",
+        "parent": ["Atlas"],
+        "child": ["Nausithous", "Nausinous"]
+    },
+    {
+        "id": "castalia",
+        "title": "Castalia",
+        "description": "Nymph mata air di Delphi yang memberikan inspirasi puitis.",
+        "parent": ["Achelous"],
+        "child": []
+    },
+    {
+        "id": "cephissus",
+        "title": "Cephissus",
+        "description": "Dewa sungai Cephissus di Attica.",
+        "parent": ["Pontus", "Thalassa"],
+        "child": ["Narcissus"]
+    },
+    {
+        "id": "chronos",
+        "title": "Chronos",
+        "description": "Dewa primordial waktu (jangan keliru dengan Cronus sang Titan).",
+        "parent": ["Hydros", "Gaea"],
+        "child": ["Aether", "Chaos", "Erebus"]
+    },
+    {
+        "id": "circe",
+        "title": "Circe",
+        "description": "Dewi sihir dan penyihir yang mampu mengubah manusia menjadi binatang.",
+        "parent": ["Helios", "Perse"],
+        "child": ["Telegonus"]
+    },
+    {
+        "id": "clotho",
+        "title": "Clotho",
+        "description": "Salah satu dari tiga Fates (Moirai) yang bertugas memintal benang kehidupan.",
+        "parent": ["Zeus", "Themis"],
+        "child": []
+    },
+    {
+        "id": "clytie",
+        "title": "Clytie",
+        "description": "Nymph air yang berubah menjadi bunga matahari karena cintanya pada Helios.",
+        "parent": ["Oceanus", "Tethys"],
+        "child": []
+    },
+    {
+        "id": "daphne",
+        "title": "Daphne",
+        "description": "Nymph yang berubah menjadi pohon salam untuk menghindari kejaran Apollo.",
+        "parent": ["Peneus"],
+        "child": []
+    },
+    {
+        "id": "deimos",
+        "title": "Deimos",
+        "description": "Dewa teror dan personifikasi dari rasa takut.",
+        "parent": ["Ares", "Aphrodite"],
+        "child": []
+    },
+    {
+        "id": "dike",
+        "title": "Dike",
+        "description": "Dewi keadilan moral dan tatanan hukum manusia. Salah satu dari Horae.",
+        "parent": ["Zeus", "Themis"],
+        "child": []
+    },
+    {
+        "id": "dysnomia",
+        "title": "Dysnomia",
+        "description": "Personifikasi dari pelanggaran hukum dan kekacauan sipil.",
+        "parent": ["Eris"],
+        "child": []
+    },
+    {
+        "id": "echo",
+        "title": "Echo",
+        "description": "Oread (nymph gunung) yang dikutuk hanya bisa mengulangi kata-kata orang lain.",
+        "parent": [],
+        "child": ["Iambe"]
+    },
+    {
+        "id": "eileithyia",
+        "title": "Eileithyia",
+        "description": "Dewi kelahiran dan persalinan.",
+        "parent": ["Zeus", "Hera"],
+        "child": []
+    },
+    {
+        "id": "eirene",
+        "title": "Eirene",
+        "description": "Dewi perdamaian dan personifikasi waktu damai.",
+        "parent": ["Zeus", "Themis"],
+        "child": []
+    },
+    {
+        "id": "elpis",
+        "title": "Elpis",
+        "description": "Personifikasi dan dewi harapan; satu-satunya roh yang tersisa di kotak Pandora.",
+        "parent": ["Nyx"],
+        "child": []
+    },
+    {
+        "id": "endeis",
+        "title": "Endeis",
+        "description": "Nymph gunung atau ratu Aegina dalam beberapa tradisi.",
+        "parent": ["Chiron", "Chariclo"],
+        "child": ["Peleus", "Telamon"]
+    },
+    {
+        "id": "enyo",
+        "title": "Enyo",
+        "description": "Dewi perang yang kejam, sering mendampingi Ares dalam penghancuran kota.",
+        "parent": ["Ares", "Aphrodite"],
+        "child": []
+    },
+    {
+        "id": "eros",
+        "title": "Eros",
+        "description": "Dewa cinta, nafsu, dan keinginan seksual.",
+        "parent": ["Aphrodite", "Ares"],
+        "child": ["Hedone"]
+    },
+    {
+        "id": "euphrosyne",
+        "title": "Euphrosyne",
+        "description": "Dewi kegembiraan, keceriaan, dan kegirangan. Salah satu dari tiga Graces.",
+        "parent": ["Zeus", "Eurynome"],
+        "child": []
+    },
+    {
+        "id": "geras",
+        "title": "Geras",
+        "description": "Dewa atau personifikasi dari masa tua.",
+        "parent": ["Nyx", "Erebus"],
+        "child": []
+    },
+    {
+        "id": "graeae",
+        "title": "Graeae",
+        "description": "Tiga bersaudari tua yang berbagi satu mata dan satu gigi.",
+        "parent": ["Phorcys", "Ceto"],
+        "child": []
+    },
+    {
+        "id": "harmonia",
+        "title": "Harmonia",
+        "description": "Dewi kerukunan dan harmoni.",
+        "parent": ["Ares", "Aphrodite"],
+        "child": ["Ino", "Semele", "Agave", "Autonoe", "Polydorus"]
+    },
+    {
+        "id": "hebe",
+        "title": "Hebe",
+        "description": "Dewi masa muda dan pembawa cangkir bagi para dewa Olimpus.",
+        "parent": ["Zeus", "Hera"],
+        "child": ["Alexiares", "Anicetus"]
+    },
+    {
+        "id": "heliadae",
+        "title": "Heliadae",
+        "description": "Tujuh putra Helios yang merupakan astrolog dan penguasa pulau Rhodes.",
+        "parent": ["Helios", "Rhode"],
+        "child": []
+    },
+    {
+        "id": "heliades",
+        "title": "Heliades",
+        "description": "Putri-putri Helios yang berubah menjadi pohon poplar karena meratapi Phaethon.",
+        "parent": ["Helios", "Clymene"],
+        "child": []
+    },
+    {
+        "id": "helios",
+        "title": "Helios",
+        "description": "Titan personifikasi dari Matahari yang mengendarai kereta emas melintasi langit.",
+        "parent": ["Hyperion", "Theia"],
+        "child": ["Phaethon", "Aeetes", "Circe", "Pasiphae", "The Heliadae"]
+    },
+    {
+        "id": "hemera",
+        "title": "Hemera",
+        "description": "Dewi primordial siang hari.",
+        "parent": ["Erebus", "Nyx"],
+        "child": ["Thalassa"]
+    },
+    {
+        "id": "hermaphroditus",
+        "title": "Hermaphroditus",
+        "description": "Dewa yang memiliki karakteristik pria dan wanita.",
+        "parent": ["Hermes", "Aphrodite"],
+        "child": []
+    },
+    {
+        "id": "hesperides",
+        "title": "Hesperides",
+        "description": "Nymph penjaga kebun apel emas di ujung barat dunia.",
+        "parent": ["Atlas", "Hesperis"],
+        "child": []
+    },
+    {
+        "id": "hesperus",
+        "title": "Hesperus",
+        "description": "Dewa personifikasi bintang malam (planet Venus di malam hari).",
+        "parent": ["Eos", "Astraeus"],
+        "child": ["Ceyx"]
+    },
+    {
+        "id": "horae",
+        "title": "Horae",
+        "description": "Dewi-dewi musim dan tatanan waktu alam.",
+        "parent": ["Zeus", "Themis"],
+        "child": []
+    },
+    {
+        "id": "horkos",
+        "title": "Horkos",
+        "description": "Personifikasi dari sumpah dan kutukan bagi mereka yang melanggarnya.",
+        "parent": ["Eris"],
+        "child": []
+    },
+    {
+        "id": "hyades",
+        "title": "Hyades",
+        "description": "Suster-suster nymph pembawa hujan.",
+        "parent": ["Atlas", "Aethra"],
+        "child": []
+    },
+    {
+        "id": "hyas",
+        "title": "Hyas",
+        "description": "Seorang pemanah handal yang tewas saat berburu, kematiannya ditangisi oleh saudara-saudaranya (Hyades).",
+        "parent": ["Atlas", "Aethra"],
+        "child": []
+    },
+    {
+        "id": "hygeia",
+        "title": "Hygeia",
+        "description": "Dewi kesehatan, kebersihan, dan sanitasi.",
+        "parent": ["Asclepius", "Epione"],
+        "child": []
+    },
+    {
+        "id": "iasion",
+        "title": "Iasion",
+        "description": "Pahlawan atau dewa minor yang dicintai oleh Demeter di ladang gandum.",
+        "parent": ["Zeus", "Electra"],
+        "child": ["Ploutos", "Philomelus"]
+    },
+    {
+        "id": "iris",
+        "title": "Iris",
+        "description": "Dewi pelangi dan utusan para dewa Olimpus.",
+        "parent": ["Thaumas", "Electra"],
+        "child": ["Pothos"]
+    },
+    {
+        "id": "keres",
+        "title": "Keres",
+        "description": "Roh kematian yang kejam dan membawa kehancuran di medan perang.",
+        "parent": ["Nyx"],
+        "child": []
+    },
+    {
+        "id": "keto",
+        "title": "Keto",
+        "description": "Dewi primordial bahaya laut dan monster laut purba.",
+        "parent": ["Pontus", "Gaea"],
+        "child": ["The Graeae", "The Gorgons", "Scylla", "Ladon"]
+    },
+    {
+        "id": "kratos",
+        "title": "Kratos",
+        "description": "Dewa personifikasi kekuatan, kekuasaan, dan dominasi.",
+        "parent": ["Pallas", "Styx"],
+        "child": []
+    },
+    {
+        "id": "lachesis",
+        "title": "Lachesis",
+        "description": "Salah satu dari tiga Fates (Moirai) yang menentukan panjang benang kehidupan.",
+        "parent": ["Zeus", "Themis"],
+        "child": []
+    },
+    {
+        "id": "lethe",
+        "title": "Lethe",
+        "description": "Personifikasi dari kelupaan dan nama sungai di dunia bawah.",
+        "parent": ["Eris"],
+        "child": []
+    },
+    {
+        "id": "limos",
+        "title": "Limos",
+        "description": "Dewi atau roh personifikasi kelaparan.",
+        "parent": ["Eris"],
+        "child": []
+    },
+    {
+        "id": "lyssa",
+        "title": "Lyssa",
+        "description": "Roh kegilaan, kemarahan yang membabi buta, dan rabies.",
+        "parent": ["Nyx", "Uranus"],
+        "child": []
+    },
+    {
+        "id": "makhai",
+        "title": "Makhai",
+        "description": "Roh personifikasi pertempuran dan peperangan.",
+        "parent": ["Eris"],
+        "child": []
+    },
+    {
+        "id": "maniae",
+        "title": "Maniae",
+        "description": "Roh atau dewi personifikasi kegilaan dan kegilaan mental.",
+        "parent": ["Nyx"],
+        "child": []
+    },
+    {
+        "id": "melinoe",
+        "title": "Melinoe",
+        "description": "Nymph atau dewi dunia bawah yang membawa ketakutan dan mimpi buruk.",
+        "parent": ["Zeus", "Persephone"],
+        "child": []
+    },
+    {
+        "id": "minor_gods",
+        "title": "Minor Gods",
+        "description": "Kolektif dewa-dewi yang memiliki peran spesifik namun tidak termasuk dalam 12 Olimpus utama.",
+        "parent": ["Varies"],
+        "child": ["Varies"]
+    },
+    {
+        "id": "momus",
+        "title": "Momus",
+        "description": "Dewa kritik, cemoohan, sarkasme, dan kesalahan.",
+        "parent": ["Nyx"],
+        "child": []
+    },
+    {
+        "id": "moros",
+        "title": "Moros",
+        "description": "Dewa personifikasi malapetaka dan nasib buruk yang tak terhindarkan.",
+        "parent": ["Nyx"],
+        "child": []
+    },
+    {
+        "id": "morpheus",
+        "title": "Morpheus",
+        "description": "Dewa mimpi yang mampu meniru bentuk manusia.",
+        "parent": ["Hypnos"],
+        "child": []
+    },
+    {
+        "id": "nemesis",
+        "title": "Nemesis",
+        "description": "Dewi pembalasan yang menghukum kesombongan (hubris).",
+        "parent": ["Nyx"],
+        "child": ["Helen of Troy (dalam beberapa versi)"]
+    },
+    {
+        "id": "nephele",
+        "title": "Nephele",
+        "description": "Dewi awan yang diciptakan Zeus menyerupai Hera.",
+        "parent": ["Zeus"],
+        "child": ["The Centaurs", "Phrixus", "Helle"]
+    },
+    {
+        "id": "nilus",
+        "title": "Nilus",
+        "description": "Dewa sungai Nil.",
+        "parent": ["Oceanus", "Tethys"],
+        "child": ["Memphis", "Anchirhoe"]
+    },
+    {
+        "id": "nysiads",
+        "title": "Nysiads",
+        "description": "Nymph gunung Nysa yang merawat bayi Dionysus.",
+        "parent": ["Oceanus"],
+        "child": []
+    },
+    {
+        "id": "nyx",
+        "title": "Nyx",
+        "description": "Dewi primordial malam yang sangat kuat, bahkan ditakuti oleh Zeus.",
+        "parent": ["Chaos"],
+        "child": ["Hypnos", "Thanatos", "Eris", "Nemesis", "Hemera", "Aether"]
+    },
+    {
+        "id": "oenone",
+        "title": "Oenone",
+        "description": "Nymph gunung Ida dan istri pertama Paris dari Troy sebelum diculiknya Helen.",
+        "parent": ["Cebren"],
+        "child": ["Corythus"]
+    },
+    {
+        "id": "oizys",
+        "title": "Oizys",
+        "description": "Dewi personifikasi dari kesedihan, kecemasan, dan penderitaan.",
+        "parent": ["Nyx", "Erebus"],
+        "child": []
+    },
+    {
+        "id": "old_man_of_the_sea",
+        "title": "Old Man of the Sea",
+        "description": "Istilah untuk dewa laut kuno yang berubah wujud, biasanya merujuk pada Nereus, Proteus, atau Phorcys.",
+        "parent": ["Pontus", "Gaea"],
+        "child": ["The Nereids"]
+    },
+    {
+        "id": "oneiroi",
+        "title": "Oneiroi",
+        "description": "Personifikasi mimpi-mimpi yang tinggal di gua gelap dekat dunia bawah.",
+        "parent": ["Nyx" ],
+        "child": []
+    },
+    {
+        "id": "ourea",
+        "title": "Ourea",
+        "description": "Dewa-dewa primordial pegunungan.",
+        "parent": ["Gaea"],
+        "child": []
+    },
+    {
+        "id": "paean",
+        "title": "Paean",
+        "description": "Tabib para dewa di Olimpus (terkadang dianggap sebagai aspek dari Apollo).",
+        "parent": [],
+        "child": []
+    },
+    {
+        "id": "pan",
+        "title": "Pan",
+        "description": "Dewa alam liar, gembala, ternak, dan musik pegunungan.",
+        "parent": ["Hermes", "Dryope"],
+        "child": ["Silenus", "Krotos"]
+    },
+    {
+        "id": "peneus",
+        "title": "Peneus",
+        "description": "Dewa sungai di wilayah Thessaly.",
+        "parent": ["Oceanus", "Tethys"],
+        "child": ["Daphne", "Stilbe"]
+    },
+    {
+        "id": "pheme",
+        "title": "Pheme",
+        "description": "Dewi personifikasi rumor, berita, dan ketenaran.",
+        "parent": ["Gaea" ],
+        "child": []
+    },
+    {
+        "id": "philotes",
+        "title": "Philotes",
+        "description": "Dewi personifikasi kasih sayang, persahabatan, dan hubungan seksual.",
+        "parent": ["Nyx"],
+        "child": []
+    },
+    {
+        "id": "phobos",
+        "title": "Phobos",
+        "description": "Dewa personifikasi rasa takut dan ketakutan ekstrem.",
+        "parent": ["Ares", "Aphrodite"],
+        "child": []
+    },
+    {
+        "id": "phonoi",
+        "title": "Phonoi",
+        "description": "Roh personifikasi pembunuhan dan pembantaian.",
+        "parent": ["Eris"],
+        "child": []
+    },
+    {
+        "id": "phorcys",
+        "title": "Phorcys",
+        "description": "Dewa laut purba yang menguasai bahaya-bahaya tersembunyi di kedalaman.",
+        "parent": ["Pontus", "Gaea"],
+        "child": ["The Gorgons", "The Graeae", "Scylla", "Ladon"]
+    },
+    {
+        "id": "phosphorus",
+        "title": "Phosphorus",
+        "description": "Dewa personifikasi bintang fajar (Planet Venus di pagi hari).",
+        "parent": ["Eos", "Astraeus"],
+        "child": []
+    },
+    {
+        "id": "phthonus",
+        "title": "Phthonus",
+        "description": "Personifikasi dari kecemburuan dan rasa iri.",
+        "parent": ["Nyx", "Dionysus"],
+        "child": []
+    },
+    {
+        "id": "ploutos",
+        "title": "Ploutos",
+        "description": "Dewa kekayaan, sering digambarkan sebagai anak kecil yang membawa talam kelimpahan.",
+        "parent": ["Demeter", "Iasion"],
+        "child": []
+    },
+    {
+        "id": "ponos",
+        "title": "Ponos",
+        "description": "Dewa atau roh personifikasi kerja keras, jerih payah, dan usaha.",
+        "parent": ["Nyx" ],
+        "child": []
+    },
+    {
+        "id": "pontus",
+        "title": "Pontus",
+        "description": "Dewa laut primordial sebelum Poseidon.",
+        "parent": ["Gaea"],
+        "child": ["Nereus", "Thaumas", "Phorcys", "Ceto", "Eurybia"]
+    },
+    {
+        "id": "priapus",
+        "title": "Priapus",
+        "description": "Dewa kesuburan pedesaan dan pelindung tanaman serta alat kelamin pria.",
+        "parent": ["Dionysus", "Aphrodite"],
+        "child": []
+    },
+    {
+        "id": "primordial",
+        "title": "Primordial",
+        "description": "Kategori dewa-dewi pertama yang muncul pada saat penciptaan alam semesta.",
+        "parent": ["Chaos"],
+        "child": ["Titans", "Gods"]
+    },
+    {
+        "id": "proteus",
+        "title": "Proteus",
+        "description": "Dewa laut yang mampu meramal masa depan dan mengubah bentuk tubuhnya.",
+        "parent": ["Poseidon"],
+        "child": ["Eidothea"]
+    },
+    {
+        "id": "pseudologoi",
+        "title": "Pseudologoi",
+        "description": "Roh-roh personifikasi kebohongan dan kepalsuan.",
+        "parent": ["Eris"],
+        "child": []
+    },
+    {
+        "id": "psyche",
+        "title": "Psyche",
+        "description": "Dewi personifikasi jiwa manusia yang memiliki cinta abadi dengan Eros.",
+        "parent": ["Raja dan Ratu fana yang tidak disebutkan namanya"],
+        "child": ["Hedone"]
+    },
+    {
+        "id": "rhode",
+        "title": "Rhode",
+        "description": "Dewi laut pelindung pulau Rhodes.",
+        "parent": ["Poseidon", "Amphitrite"],
+        "child": ["The Heliadae"]
+    },
+    {
+        "id": "scamander",
+        "title": "Scamander",
+        "description": "Dewa sungai utama di dataran Troy yang berperan dalam Perang Troya.",
+        "parent": ["Oceanus", "Tethys"],
+        "child": ["Teucer", "Strymo"]
+    },
+    {
+        "id": "syrinx",
+        "title": "Syrinx",
+        "description": "Nymph pengikut Artemis yang berubah menjadi alang-alang untuk menghindari Pan.",
+        "parent": ["Ladon"],
+        "child": []
+    },
+    {
+        "id": "tartarus",
+        "title": "Tartarus",
+        "description": "Dewa primordial sekaligus tempat terdalam di dunia bawah untuk memenjarakan para monster.",
+        "parent": ["Chaos"],
+        "child": ["Typhoeus", "Echidna"]
+    },
+    {
+        "id": "telesto",
+        "title": "Telesto",
+        "description": "Oceanid (nymph laut) personifikasi dari keberhasilan atau berkat.",
+        "parent": ["Oceanus", "Tethys"],
+        "child": []
+    },
+    {
+        "id": "thalassa",
+        "title": "Thalassa",
+        "description": "Dewi primordial permukaan laut.",
+        "parent": ["Aether", "Hemera"],
+        "child": ["The Telchines", "Aphrodite (dalam beberapa versi)"]
+    },
+    {
+        "id": "thalia",
+        "title": "Thalia",
+        "description": "Salah satu dari tiga Graces (kegembiraan) atau salah satu dari sembilan Muses (komedi).",
+        "parent": ["Zeus", "Mnemosyne"],
+        "child": ["The Corybantes"]
+    },
+    {
+        "id": "thanatos",
+        "title": "Thanatos",
+        "description": "Dewa primordial kematian yang tidak mematikan (kematian tenang).",
+        "parent": ["Nyx", "Erebus"],
+        "child": []
+    },
+    {
+        "id": "thaumas",
+        "title": "Thaumas",
+        "description": "Dewa laut yang mewakili keajaiban dan fenomena laut.",
+        "parent": ["Pontus", "Gaea"],
+        "child": ["Iris", "The Harpies"]
+    },
+    {
+        "id": "the_erinnyes",
+        "title": "The Erinnyes",
+        "description": "Dewa pembalasan (Furies) yang menghukum pelaku kejahatan moral.",
+        "parent": ["Uranus (dari darahnya yang tumpah ke bumi)"],
+        "child": []
+    },
+    {
+        "id": "the_fates",
+        "title": "The Fates",
+        "description": "Tiga dewi yang mengendalikan takdir setiap makhluk hidup (Clotho, Lachesis, Atropos).",
+        "parent": ["Zeus", "Themis"],
+        "child": []
+    },
+    {
+        "id": "the_graces",
+        "title": "The Graces",
+        "description": "Dewi-dewi pesona, keindahan, alam, kreativitas manusia, dan kesuburan.",
+        "parent": ["Zeus", "Eurynome"],
+        "child": []
+    },
+    {
+        "id": "the_muses",
+        "title": "The Muses",
+        "description": "Sembilan dewi inspirasi dalam ilmu pengetahuan dan seni.",
+        "parent": ["Zeus", "Mnemosyne"],
+        "child": []
+    },
+    {
+        "id": "thetis",
+        "title": "Thetis",
+        "description": "Nereid (nymph laut) yang memiliki kekuatan merubah wujud dan ibu dari Achilles.",
+        "parent": ["Nereus", "Doris"],
+        "child": ["Achilles"]
+    },
+    {
+        "id": "tyche",
+        "title": "Tyche",
+        "description": "Dewi keberuntungan, nasib, dan kemakmuran sebuah kota.",
+        "parent": ["Oceanus", "Tethys"],
+        "child": []
+    },
+    {
+        "id": "typhoeus",
+        "title": "Typhoeus",
+        "description": "Monster raksasa paling mematikan dalam mitologi Yunani, sering disebut Ayah dari Segala Monster.",
+        "parent": ["Tartarus", "Gaea"],
+        "child": ["Cerberus", "Hydra", "Chimera", "Sphinx"]
+    },
+    {
+        "id": "uranus",
+        "title": "Uranus",
+        "description": "Dewa primordial langit dan penguasa pertama alam semesta.",
+        "parent": ["Gaea"],
+        "child": ["The Titans", "The Cyclopes", "The Hecatoncheires"]
+    },
+    {
+        "id": "zagreus",
+        "title": "Zagreus",
+        "description": "Dewa misteri yang sering diidentifikasi sebagai inkarnasi pertama Dionysus.",
+        "parent": ["Zeus", "Persephone"],
+        "child": []
+    },
+    {
+        "id": "zelus",
+        "title": "Zelus",
+        "description": "Personifikasi dari dedikasi, emulasi, semangat, dan kecemburuan.",
+        "parent": ["Pallas", "Styx"],
+        "child": []
+    }
+]

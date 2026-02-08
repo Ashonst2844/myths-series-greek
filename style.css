@@ -129,19 +129,25 @@ body {
     width: 20%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 .head-sect .profile a {
     display: block;
     width: 100px;
-    height: 100px;
+    height: 90%;
     background-color: var(--accent-color);
     font-size: 42px;
     color: var(--text);
     border-radius: 50%;
     text-align: center;
     line-height: 100px;
+}
+.head-sect .profile h2 {
+    width: 100%;
+    font-size: 16px;
+    height: 10%;
+    text-align: center;
 }
 .head-sect .text {
     display: flex;
@@ -220,6 +226,7 @@ body {
     color: var(--accent-color);
     margin: 1px;
     float: left;
+    text-align: center;
     font-size: 12px;
 }
 .body-sect .body-content .pg .char-detail div p {
