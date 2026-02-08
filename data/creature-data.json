@@ -1,0 +1,194 @@
+[
+    {
+        "id": "argus-panoptes",
+        "title": "Argus Panoptes",
+        "image": "../src/creature-images/argus-panoptes.png",
+        "description": "Raksasa bermata seratus yang menjadi penjaga setia Hera, terkenal karena hampir tidak pernah tidur."
+    },
+    {
+        "id": "arion",
+        "title": "Arion",
+        "image": "../src/creature-images/arion.png",
+        "description": "Kuda abadi yang dapat berbicara dan memiliki kecepatan luar biasa."
+    },
+    {
+        "id": "ash-tree-nymphs",
+        "title": "Ash Tree Nymphs",
+        "image": "../src/creature-images/ash-tree-nymphs.png",
+        "description": "Nimfa pohon ash (Meliae) yang berhubungan dengan peperangan dan kelahiran manusia pertama."
+    },
+    {
+        "id": "centaur",
+        "title": "Centaur",
+        "image": "../src/creature-images/centaur.png",
+        "description": "Makhluk setengah manusia setengah kuda, melambangkan konflik antara naluri liar dan kebijaksanaan."
+    },
+    {
+        "id": "cerberus",
+        "title": "Cerberus",
+        "image": "../src/creature-images/cerberus.png",
+        "description": "Anjing berkepala tiga penjaga gerbang dunia bawah milik Hades."
+    },
+    {
+        "id": "ceryneian-hind",
+        "title": "Ceryneian Hind",
+        "image": "../src/creature-images/ceryneian-hind.png",
+        "description": "Rusa suci Artemis dengan tanduk emas dan kecepatan luar biasa."
+    },
+    {
+        "id": "chimaera",
+        "title": "Chimaera",
+        "image": "../src/creature-images/chimaera.png",
+        "description": "Makhluk gabungan singa, kambing, dan ular yang mampu menyemburkan api."
+    },
+    {
+        "id": "chiron",
+        "title": "Chiron",
+        "image": "../src/creature-images/chiron.png",
+        "description": "Centaur bijaksana yang menjadi guru banyak pahlawan Yunani."
+    },
+    {
+        "id": "chrysaor",
+        "title": "Chrysaor",
+        "image": "../src/creature-images/chrysaor.png",
+        "description": "Putra Medusa yang lahir dari darahnya, sering dikaitkan dengan pedang emas."
+    },
+    {
+        "id": "cretan-bull",
+        "title": "Cretan Bull",
+        "image": "../src/creature-images/cretan-bull.png",
+        "description": "Banteng buas dari Kreta yang kemudian ditangkap oleh Herakles."
+    },
+    {
+        "id": "cyclopes",
+        "title": "Cyclopes",
+        "image": "../src/creature-images/cyclopes.png",
+        "description": "Raksasa bermata satu yang ahli menempa senjata para dewa."
+    },
+    {
+        "id": "delphyne",
+        "title": "Delphyne",
+        "image": "../src/creature-images/delphyne.png",
+        "description": "Monster setengah wanita setengah ular yang menjaga orakel Delphi."
+    },
+    {
+        "id": "echidna",
+        "title": "Echidna",
+        "image": "../src/creature-images/echidna.png",
+        "description": "Ibu dari banyak monster, setengah wanita dan setengah ular."
+    },
+    {
+        "id": "erymanthian-boar",
+        "title": "Erymanthian Boar",
+        "image": "../src/creature-images/erymanthian-boar.png",
+        "description": "Babi hutan raksasa yang ditangkap Herakles dalam salah satu tugasnya."
+    },
+    {
+        "id": "giants",
+        "title": "Giants",
+        "image": "../src/creature-images/giants.png",
+        "description": "Ras raksasa kuat yang memberontak melawan para dewa Olimpus."
+    },
+    {
+        "id": "gorgons",
+        "title": "Gorgons",
+        "image": "../src/creature-images/gorgons.png",
+        "description": "Tiga saudari mengerikan dengan rambut ular yang dapat membatu siapa pun."
+    },
+    {
+        "id": "hecatoncheires",
+        "title": "Hecatoncheires",
+        "image": "../src/creature-images/hecatoncheires.png",
+        "description": "Raksasa dengan seratus tangan dan lima puluh kepala."
+    },
+    {
+        "id": "laelaps",
+        "title": "Laelaps",
+        "image": "../src/creature-images/laelaps.png",
+        "description": "Anjing pemburu yang selalu berhasil menangkap mangsanya."
+    },
+    {
+        "id": "lotus-eaters",
+        "title": "Lotus Eaters",
+        "image": "../src/creature-images/lotus-eaters.png",
+        "description": "Manusia yang memakan bunga lotus hingga lupa akan rumah dan tujuan."
+    },
+    {
+        "id": "maenads",
+        "title": "Maenads",
+        "image": "../src/creature-images/maenads.png",
+        "description": "Pengikut Dionysus yang terkenal dengan kegilaan ritualnya."
+    },
+    {
+        "id": "marsyas",
+        "title": "Marsyas",
+        "image": "../src/creature-images/marsyas.png",
+        "description": "Satyr yang menantang Apollo dalam kompetisi musik."
+    },
+    {
+        "id": "medusa",
+        "title": "Medusa",
+        "image": "../src/creature-images/medusa.png",
+        "description": "Gorgon fana yang tatapannya dapat mengubah makhluk hidup menjadi batu."
+    },
+    {
+        "id": "nessus",
+        "title": "Nessus",
+        "image": "../src/creature-images/nessus.png",
+        "description": "Centaur yang menyebabkan kematian Herakles melalui tipu daya."
+    },
+    {
+        "id": "pegasus",
+        "title": "Pegasus",
+        "image": "../src/creature-images/pegassus.png",
+        "description": "Kuda bersayap yang lahir dari darah Medusa."
+    },
+    {
+        "id": "phoenix",
+        "title": "Phoenix",
+        "image": "../src/creature-images/phoenix.png",
+        "description": "Burung abadi yang terlahir kembali dari abunya sendiri."
+    },
+    {
+        "id": "polyphemus",
+        "title": "Polyphemus",
+        "image": "../src/creature-images/polyphemus.png",
+        "description": "Cyclops yang dihadapi Odysseus dalam pengembaraannya."
+    },
+    {
+        "id": "python",
+        "title": "Python",
+        "image": "../src/creature-images/python.png",
+        "description": "Ular raksasa penjaga Delphi yang dibunuh oleh Apollo."
+    },
+    {
+        "id": "satyrs",
+        "title": "Satyrs",
+        "image": "../src/creature-images/satyrs.png",
+        "description": "Makhluk setengah manusia setengah kambing, pengikut Dionysus."
+    },
+    {
+        "id": "silenus",
+        "title": "Silenus",
+        "image": "../src/creature-images/silenus.png",
+        "description": "Satyr tua bijaksana yang menjadi pengasuh Dionysus."
+    },
+    {
+        "id": "sirens",
+        "title": "Sirens",
+        "image": "../src/creature-images/sirens.png",
+        "description": "Makhluk yang memikat pelaut dengan nyanyian mematikan."
+    },
+    {
+        "id": "talos",
+        "title": "Talos",
+        "image": "../src/creature-images/talos.png",
+        "description": "Raksasa perunggu otomatis penjaga pulau Kreta."
+    },
+    {
+        "id": "teumessian-fox",
+        "title": "Teumessian fox",
+        "image": "../src/creature-images/teumessian-fox.png",
+        "description": "Rubah legendaris yang tidak pernah bisa ditangkap."
+    }
+]

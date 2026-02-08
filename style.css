@@ -205,7 +205,10 @@ body {
 .body-sect .body-content .pg .container-list ul {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    align-items: center;
 }
 .body-sect .body-content .pg .container-list ul a {
     display: flex;
@@ -215,9 +218,9 @@ body {
     height: 30px;
     background-color: var(--base-color);
     color: var(--accent-color);
-    margin: 5px;
-    border-radius: 10px;
+    margin: 1px;
     float: left;
+    font-size: 12px;
 }
 .body-sect .body-content .pg .char-detail div p {
     font-size: 16px;
@@ -235,6 +238,11 @@ body {
     border-radius: 50%;
     margin: 10px;
     float: left;
+}
+.body-sect .body-content .pg #creature-char .detail p img {
+    width: 200px;
+    height: 250px;
+    border-radius: 0%;
 }
 .side-sect {
     grid-area: 2 / 7 / 5 / 9;
