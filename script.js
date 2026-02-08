@@ -13,11 +13,20 @@ fetch('data/olympian-data.json')
     .then(response => response.json())
     .then(data => {
         const container = document.querySelector('#olympian-char');
+<<<<<<< HEAD
         const list = document.querySelector('#olympian-list');
         data.forEach((item) => {
             const charDiv = document.createElement('div');
             const lineBreak = document.createElement('hr');
             const navLink = document.createElement('a');
+=======
+        const list = document.querySelector("#olympian-list");
+        data.forEach((item) => {
+            const charDiv = document.createElement('div');
+            const lineBreak = document.createElement('hr');
+            const linkNav = document.createElement("a");
+
+>>>>>>> b08379e6a0728d353d2cc67f16ccfbe93c815ebb
             lineBreak.style.border = "1px solid var(--text)";
             lineBreak.style.marginBlock = "20px";
             charDiv.classList.add('detail', 'reveal');
@@ -26,10 +35,17 @@ fetch('data/olympian-data.json')
                 <h2>${item.title}</h2><span>${item.description}</span>
                 <p><img src="${item.image}" alt="${item.title}">${item.caption}</p>
             `;
+<<<<<<< HEAD
             navLink.setAttribute('href', '#'+item.id);
             navLink.innerHTML = item.title;
 
             list.appendChild(navLink);
+=======
+            linkNav.setAttribute("href", "#"+item.id);
+            linkNav.textContent = item.title;
+
+            list.appendChild(linkNav);
+>>>>>>> b08379e6a0728d353d2cc67f16ccfbe93c815ebb
             container.appendChild(charDiv);
             container.appendChild(lineBreak);
             container.appendChild(document.createElement("br"));
@@ -41,11 +57,20 @@ fetch('data/titan-data.json')
     .then(response => response.json())
     .then(data => {
         const container = document.querySelector('#titan-char');
+<<<<<<< HEAD
         const list = document.querySelector('#titan-list');
         data.forEach((item) => {
             const charDiv = document.createElement('div');
             const lineBreak = document.createElement('hr');
             const navLink = document.createElement('a');
+=======
+        const list = document.querySelector("#titan-list")
+        data.forEach((item) => {
+            const charDiv = document.createElement('div');
+            const lineBreak = document.createElement('hr');
+            const linkNav = document.createElement("a");
+
+>>>>>>> b08379e6a0728d353d2cc67f16ccfbe93c815ebb
             lineBreak.style.border = "1px solid var(--text)";
             lineBreak.style.marginBlock = "20px";
             charDiv.classList.add('detail', 'reveal');
@@ -60,6 +85,7 @@ fetch('data/titan-data.json')
                 <span>Pasangan:</span> ${item.lover}<br>
                 <span>Anak-anak:</span> ${item.child.join(', ')}
             `;
+<<<<<<< HEAD
             navLink.setAttribute('href', '#'+item.id);
             navLink.innerHTML = item.title;
 
@@ -92,6 +118,12 @@ fetch('data/creature-data.json')
             navLink.innerHTML = item.title;
 
             list.appendChild(navLink);
+=======
+            linkNav.setAttribute("href", "#"+item.id);
+            linkNav.textContent = item.title;
+
+            list.appendChild(linkNav);
+>>>>>>> b08379e6a0728d353d2cc67f16ccfbe93c815ebb
             container.appendChild(charDiv);
             container.appendChild(document.createElement('br'));
             container.appendChild(lineBreak);
