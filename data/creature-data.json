@@ -1,6 +1,5 @@
 [
     {
-<<<<<<< HEAD
         "id": "argus-panoptes",
         "title": "Argus Panoptes",
         "image": "../src/creature-images/argus-panoptes.png",
@@ -193,8 +192,3 @@
         "description": "Rubah legendaris yang tidak pernah bisa ditangkap."
     }
 ]
-=======
-        
-    }
-]
->>>>>>> b08379e6a0728d353d2cc67f16ccfbe93c815ebb
